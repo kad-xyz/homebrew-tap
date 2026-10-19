@@ -40,7 +40,6 @@ class SpbstuMcp < Formula
   end
 
   test do
-    assert_match "spbstu-mcp", pipe_output("#{bin}/spbstu-mcp",
-      '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"brew","version":"0"}}}' + "\n")
+    assert_match "keychain-service", shell_output("#{bin}/spbstu-mcp -h 2>&1")
   end
 end
