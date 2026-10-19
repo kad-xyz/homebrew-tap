@@ -1,7 +1,6 @@
 class SpbstuMcp < Formula
   desc "MCP server for SPbPU students: dl.spbstu.ru, university mail, openedu.ru, timetable"
   homepage "https://github.com/kad-xyz/spbstu-mcp"
-  version "0.2.0"
   license "MIT"
 
   on_macos do
