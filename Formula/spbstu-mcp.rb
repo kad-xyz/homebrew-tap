@@ -5,23 +5,23 @@ class SpbstuMcp < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/kad-xyz/spbstu-mcp/releases/download/v0.12.0/spbstu-mcp_v0.12.0_darwin_arm64.tar.gz"
-      sha256 "29662e7c4bd140e516617551db3c8fb665ac599e226ae534097e075a35c171bf"
+      url "https://github.com/kad-xyz/spbstu-mcp/releases/download/v0.13.0/spbstu-mcp_v0.13.0_darwin_arm64.tar.gz"
+      sha256 "a42af1cbf46eed5d0c00c951ebde730e936b6f0e1c21214c9ffc5a875b80fc2a"
     end
     on_intel do
-      url "https://github.com/kad-xyz/spbstu-mcp/releases/download/v0.12.0/spbstu-mcp_v0.12.0_darwin_amd64.tar.gz"
-      sha256 "9679c678283f0630701dfdf3c8e94f7e6007b6a1b21bebc34eddda71cffa533b"
+      url "https://github.com/kad-xyz/spbstu-mcp/releases/download/v0.13.0/spbstu-mcp_v0.13.0_darwin_amd64.tar.gz"
+      sha256 "4f6b133e19bb1d6d7ed760aaf34a8afa802ce837acc965c113b3e87042b0b71a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kad-xyz/spbstu-mcp/releases/download/v0.12.0/spbstu-mcp_v0.12.0_linux_arm64.tar.gz"
-      sha256 "db7fd15cf05a604b416e7b35fbdac64a6b95ede852e409766c818aa40e9ea67e"
+      url "https://github.com/kad-xyz/spbstu-mcp/releases/download/v0.13.0/spbstu-mcp_v0.13.0_linux_arm64.tar.gz"
+      sha256 "13e32d7ff194916b5ee868df9ba8b2197d2aa17490ef8ab4303a04479625344d"
     end
     on_intel do
-      url "https://github.com/kad-xyz/spbstu-mcp/releases/download/v0.12.0/spbstu-mcp_v0.12.0_linux_amd64.tar.gz"
-      sha256 "8fdcb0b1e5cfacae11a431e6d344777837153147de195488cb252b7437d70bd8"
+      url "https://github.com/kad-xyz/spbstu-mcp/releases/download/v0.13.0/spbstu-mcp_v0.13.0_linux_amd64.tar.gz"
+      sha256 "906d231e394e653f6255f88d93b831f3b5217aa261498db2188b9136e225eabf"
     end
   end
 
